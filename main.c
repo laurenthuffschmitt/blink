@@ -18,11 +18,11 @@ int main(int argc, char *argv[])
     {
         printf("[Device] #%d Blue LED \n", blinkNumber);
         writeToPin(BLUE_LED_PIN, HIGH);
-        wait(100);
+        wait(1000);
         writeToPin(BLUE_LED_PIN, LOW);
         printf("[Device] #%d Green LED \n", blinkNumber);
         writeToPin(GREEN_LED_PIN, HIGH);
-        wait(100);
+        wait(1000);
         writeToPin(GREEN_LED_PIN, LOW);
     }
 
